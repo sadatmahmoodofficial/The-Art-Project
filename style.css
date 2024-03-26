@@ -126,3 +126,28 @@ main .img {
 }
 
 /* Section 3 End */
+
+/* Footer Start */
+
+footer {
+    margin-top: 10rem;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(144, 195, 200);
+}
+
+footer .logo-container h1 {
+    font-size: 4rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+footer .logo-container p {
+    max-width: 400px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+}
