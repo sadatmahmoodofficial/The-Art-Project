@@ -10,8 +10,12 @@
 }
 
 body {
-    background-color: #ebeae9;
+    background: rgb(144, 195, 200);
     margin: 1rem;
+}
+
+.wrapper-container {
+    background-color: #ebeae9;
 }
 
 html {
@@ -134,6 +138,7 @@ footer {
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     color: white;
@@ -151,3 +156,26 @@ footer .logo-container p {
     font-family: "Open Sans", sans-serif;
     line-height: 25px;
 }
+
+footer .about-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .about-company .container {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.about-company .container h1 {
+    margin-bottom: 50px;
+}
+
+.about-company .container p {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Project End */
