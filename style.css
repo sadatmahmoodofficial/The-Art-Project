@@ -179,3 +179,27 @@ footer .about-company .container {
 }
 
 /* Project End */
+
+/* Responsiveness */
+
+@media screen and (max-width: 740px) {
+    
+    header .main-headings {
+        width: 100%;
+    }
+    header .primary-headings {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .section-3 .main-headings {
+        width: 100%;
+    }
+    .section-3 .primary-headings {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .section-3 .img {
+        margin: 0;
+    }
+}
